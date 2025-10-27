@@ -4,11 +4,11 @@ text = ("Apelul venit prin 112 ne-a anuntat "
         "din care poate fi extras doar cu echipamente speciale.")
 
 part1 = text[:len(text)//2].upper()
+
 if part1[0] == " ":
     part1[0] = ""
 if part1[:-1] == " ":
     part1[:-1] = ""
-
 
 part2 = text[-1:len(text)//2-1:-1]
 for c in ",.?!" :
