@@ -32,7 +32,7 @@ print(f"{elev_max} a obtinut cea mai mare nota: {nota_max}")
 print(f"{elev_min} a obtinut cea mai mica nota: {nota_min}")
 
 #A3 Media clasei
-print(f"Media clasei {sum(note)/len(note)}")
+print(f"Media clasei {sum(note)/len(note):.2f}")
 
 #A4 Promovati
 print(f"Elevii care au luat nota mai mare sau egal cu 5 sunt:")
