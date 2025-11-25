@@ -38,7 +38,8 @@ print(f"Media clasei {sum(note)/len(note):.2f}")
 print(f"Elevii care au luat nota mai mare sau egal cu 5 sunt:")
 for i in range(len(elevi)):
     if note[i] >= 5 :
-        print(elevi[i])
+        print(elevi[i], end=", ")
+print("\n")
 
 
 #Partea B – Actualizari
